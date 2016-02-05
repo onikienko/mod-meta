@@ -1,0 +1,28 @@
+{
+  "name": "mod-meta",
+  "version": "0.1.0",
+  "description": "Tracker mod metadata for .mod .xm .s3m .it",
+  "main": "mod-meta.js",
+  "scripts": {
+	"test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onikienko/mod-meta.git"
+  },
+  "keywords": [
+    "tracker",
+	"mod",
+	"metadata",
+	".mod",
+	".xm",
+	".s3m",
+	".it"
+  ],
+  "author": "Mykhailo Onikiienko <michael.onikienko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onikienko/mod-meta/issues"
+  },
+  "homepage": "https://github.com/onikienko/mod-meta#readme"
+}
