@@ -1,6 +1,6 @@
 Tracker mod metadata for .mod .xm .s3m .it
 
-Currently returns only title.
+Currently returns only `title`.
 
 Installation
 ------------
@@ -10,6 +10,7 @@ Installation
 Usage
 -----
 
+```javascript
     var mm = require('mod-meta');
 
     // sync
