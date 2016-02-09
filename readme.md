@@ -17,7 +17,7 @@ var mm = require('mod-meta');
 var mdata = mm.getModMetaSync('pathToMod');
 mdata !== null
     ? console.log('Mod title: ', mdata.title);
-    : consile.log('Error');
+    : console.log('Error');
 
 
 // async
