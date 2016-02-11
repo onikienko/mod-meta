@@ -1,6 +1,6 @@
 {
   "name": "mod-meta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tracker mod metadata for .mod .xm .s3m .it",
   "main": "mod-meta.js",
   "scripts": {

@@ -56,9 +56,11 @@ function collectMetadata(filePath, buffer) {
     var md = {};
     var md_config = (function () {
         var ext_name = path.extname(filePath).replace('.', '');
-        for (var i = 0; i < METADATA.length; i++) {
-            if (METADATA[i][ext_name]) {
-                return METADATA[i][ext_name];
+        if (ext_name) {
+            for (var i = 0; i < METADATA.length; i++) {
+                if (METADATA[i][ext_name]) {
+                    return METADATA[i][ext_name];
+                }
             }
         }
         return null;
@@ -85,7 +87,7 @@ module.exports = {
     },
 
     getModMetaSync: function (filePath) {
-        var f = fs.readFileSync(filePath);
-        return collectMetadata(filePath, f);
+        var buffer = fs.readFileSync(filePath);
+        return collectMetadata(filePath, buffer);
     }
 };
